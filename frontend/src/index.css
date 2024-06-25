@@ -1,0 +1,149 @@
+:root {
+  --primary-color: #000;
+  --secondary-color: #fc2779;
+  --header-bg-color: #000;
+  --footer-bg-color: #000;
+  --heading-tag-color: #212121;
+  --paragraph-tag-color: #212121;
+  --subheading-color: #757575;
+  --dashed-divider: 1px dashed #bdbdbd;
+  --divider: 1px solid #bdbdbd;
+  --input-field-text-color: #757575;
+  --input-field-border-color: #c4c4c4;
+  --icon-color: #000;
+  --expand-more-color: #f5f5f5;
+  --default-bg-color: #f2f2f2;
+  --default-font-family: "Roboto", sans-serif;
+  --heading-font-family: "Roboto", sans-serif;
+  --paragraph-font-family: "Roboto", sans-serif;
+  --default-accent-color: #000;
+  --default-linear-gradient-color: #ffd4e5;
+  --default-linear-gradient: linear-gradient(
+    271.29deg,
+    hsla(0, 0%, 100%, 0) 14.61%,
+    var(--default-linear-gradient-color) 69.98%
+  );
+  --reverse-linear-gradient: linear-gradient(
+    274.35deg,
+    var(--default-linear-gradient-color) 16.81%,
+    #fff 111.19%
+  );
+  --default-linear-gradient-border: #ffd4e5;
+  --card-bg-color: #fff;
+  --card-round: 12px;
+  --cta-btn-round: 4px;
+  --cta-btn-padding: 0px, 24px, 0px, 24px;
+  --primary-cta-bg-color: #000;
+  --secondary-cta-bg-color: #fff;
+  --disable-cta-bg-color: #d9d9d9;
+  --primary-cta-text-color: #fff;
+  --secondary-cta-text-color: #212121;
+  --secondary-cta-text-color2: #e3dcdc;
+  --disable-cta-text-color: #bdbdbd;
+  --success-alert-color: #d2ffd7;
+  --error-alert-color: #ffb4aa;
+  --info-alert-color: #d1e2fd;
+  --warning-alert-color: #ffd79b;
+  --success-message-color: #2d8c00;
+  --error-message-color: #eb0606;
+  --info-message-color: #1b5cc1;
+  --warning-message-color: #fa9600;
+  --bestseller-tag-color: #baeeff;
+  --trending-tag-color: #feb4d0;
+  --new-tag-color: #ffc876;
+  --texture1-shadow: #e9e9e9;
+  --texture2-shadow: #282828;
+  --texture3-shadow: #06035e;
+  --texture-1: url(https://media.sugarcosmetics.com/upload/loginPageBackGroundTexture.png);
+  --texture-2: url(https://media.sugarcosmetics.com/upload/VTOBackgroungTexture.png);
+  --texture-3: url(https://media.sugarcosmetics.com/upload/homePageBackGroundTexture.jpg);
+  --app_install_background: url(https://media.sugarcosmetics.com/upload/app_install_background.png);
+  --chatBot: url(https://media.sugarcosmetics.com/upload/chatBot.png);
+  --helpChat: url(https://media.sugarcosmetics.com/upload/helpChat.png);
+  --rectangle: url(https://media.sugarcosmetics.com/upload/Rectangle.png);
+  --withLogo: url(https://media.sugarcosmetics.com/upload/WithLogo.png);
+  --cartBack: url(https://media.sugarcosmetics.com/upload/background_cv_2.jpg);
+  --cartBackDesktop: url(https://d32baadbbpueqt.cloudfront.net/Clubvellvette/backCv0010.png);
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-darkPink: #a70053;
+  --bs-moveLine: #f61083;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-gray-100: #f8f9fa;
+  --bs-gray-200: #e9ecef;
+  --bs-gray-300: #dee2e6;
+  --bs-gray-400: #ced4da;
+  --bs-gray-500: #adb5bd;
+  --bs-gray-600: #6c757d;
+  --bs-gray-700: #495057;
+  --bs-gray-800: #343a40;
+  --bs-gray-900: #212529;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-primary-rgb: 13, 110, 253;
+  --bs-secondary-rgb: 108, 117, 125;
+  --bs-success-rgb: 25, 135, 84;
+  --bs-info-rgb: 13, 202, 240;
+  --bs-warning-rgb: 255, 193, 7;
+  --bs-danger-rgb: 220, 53, 69;
+  --bs-light-rgb: 248, 249, 250;
+  --bs-dark-rgb: 33, 37, 41;
+  --bs-white-rgb: 255, 255, 255;
+  --bs-black-rgb: 0, 0, 0;
+  --bs-body-color-rgb: 33, 37, 41;
+  --bs-body-bg-rgb: 255, 255, 255;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(
+    180deg,
+    hsla(0, 0%, 100%, 0.15),
+    hsla(0, 0%, 100%, 0)
+  );
+  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-size: 1rem;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.5;
+  --bs-body-color: #212529;
+  --bs-body-bg: #fff;
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  box-sizing: border-box;
+  font-family: var(--default-font-family);
+}
